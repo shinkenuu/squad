@@ -1,0 +1,11 @@
+[run]
+branch = True
+
+source =
+    ./locations/
+    ./squad/
+
+omit =
+    ./locations/apps.py
+    *wsgi.py
+    */migrations/*
